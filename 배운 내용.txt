@@ -1,0 +1,16 @@
+crtl b
+ctrl `
+ctrl shift p -> json한글패치
+win+l
+cd ..=> 계층위로 올라가기
+python -m jupyter notebook
+exit() → 정상 종료
+Ctrl + C → 강제 중단
+
+git add .
+git commit -m "titanic ml practice"
+git push
+
+git add submission10.csv practice.py #두개 파일 올리기
+git commit -m "titanic ml practice"
+git push
