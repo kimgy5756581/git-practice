@@ -7,10 +7,21 @@ python -m jupyter notebook
 exit() → 정상 종료
 Ctrl + C → 강제 중단
 
+#powershell에서는 이렇다
+cd C:\Users\kimgy\Desktop\git-practice
 git add .
 git commit -m "titanic ml practice"
 git push
+# gitbash에서는\대신/
 
 git add submission10.csv practice.py #두개 파일 올리기
 git commit -m "titanic ml practice"
 git push
+
+df.info()
+
+Alt + F4
+
+Ctrl + Shift + T
+
+파이썬 주석 단축키 ctrl /
