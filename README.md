@@ -6,16 +6,16 @@ Java 게임 구현과 표 형식 데이터 머신러닝 실습을 모은 개인 
 
 | Area | Project | What it contains |
 | --- | --- | --- |
-| Java | [Solo Adventure Maze](projects/java/solo-adventure-maze) | CSV 맵을 읽어 진행하는 텍스트 기반 미로 탐험 게임 |
-| Machine Learning | [Titanic Survival](projects/machine-learning/titanic-survival) | Random Forest 기반 생존 예측 실습 |
-| Machine Learning | [House Prices](projects/machine-learning/house-prices) | 주택 가격 회귀 대회 데이터 탐색 및 제출 실습 |
+| Java | [Solo Adventure Maze](projects/java/solo-adventure-maze/README.md) | CSV 맵을 읽어 진행하는 텍스트 기반 미로 탐험 게임 |
+| Machine Learning | [Titanic Survival](projects/machine-learning/titanic-survival/README.md) | Random Forest 기반 생존 예측 실습 |
+| Machine Learning | [House Prices](projects/machine-learning/house-prices/README.md) | 주택 가격 회귀 대회 데이터 탐색 및 제출 실습 |
 
 ## Learning notes
 
 | Topic | Contents |
 | --- | --- |
-| [Tabular ML](learning-notes/tabular-ml) | 표 형식 데이터 모델 비교, MAGIC Gamma Telescope 분류 노트북 |
-| [AIMERS / Optiver notes](learning-notes/aimers) | 딥러닝·표 형식 모델 용어와 Optiver 데이터 EDA·실습 메모 |
+| [Tabular ML](learning-notes/tabular-ml/README.md) | 표 형식 데이터 모델 비교, MAGIC Gamma Telescope 분류 노트북 |
+| [AIMERS / Optiver notes](learning-notes/aimers/README.md) | 딥러닝·표 형식 모델 용어와 Optiver 데이터 EDA·실습 메모 |
 
 ## Repository structure
 
