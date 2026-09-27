@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+torch
+lightgbm==4.7.0
+catboost==1.2.10
+tabm
+rtdl-num-embeddings

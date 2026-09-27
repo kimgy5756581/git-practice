@@ -10,6 +10,7 @@ Java 게임 구현과 표 형식 데이터 머신러닝 실습을 모은 개인 
 | Machine Learning | [Titanic Survival](projects/machine-learning/titanic-survival/README.md) | Random Forest 기반 생존 예측 실습 |
 | Machine Learning | [House Prices](projects/machine-learning/house-prices/README.md) | 주택 가격 회귀 대회 데이터 탐색 및 제출 실습 |
 | Kaggle Competition | [Kaggriculture Strategy League](projects/kaggriculture/README.md) | 독립 전략 에이전트를 격리된 로컬 리그에서 비교하는 실험 도구 |
+| AI Competition | [LG Aimers Phase 2](projects/lg-aimers-phase-2/README.md) | KBO 투구 제구 성공 확률 예측: 1090팀 중 59위 |
 
 ## Learning notes
 
@@ -26,6 +27,7 @@ projects/
   machine-learning/titanic-survival/
   machine-learning/house-prices/
   kaggriculture/
+  lg-aimers-phase-2/
 learning-notes/
   tabular-ml/
   aimers/

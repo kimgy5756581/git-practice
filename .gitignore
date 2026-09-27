@@ -22,3 +22,11 @@ projects/java/solo-adventure-maze/run_*/
 # Kaggriculture local league output
 projects/kaggriculture/runs/
 projects/kaggriculture/__pycache__/
+
+# LG Aimers Phase 2 competition data and generated artifacts
+projects/lg-aimers-phase-2/data/
+projects/lg-aimers-phase-2/model/
+projects/lg-aimers-phase-2/output/
+projects/lg-aimers-phase-2/_ref/
+projects/lg-aimers-phase-2/script.py
+projects/lg-aimers-phase-2/submit_*.zip
