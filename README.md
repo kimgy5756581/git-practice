@@ -9,6 +9,7 @@ Java 게임 구현과 표 형식 데이터 머신러닝 실습을 모은 개인 
 | Java | [Solo Adventure Maze](projects/java/solo-adventure-maze/README.md) | CSV 맵을 읽어 진행하는 텍스트 기반 미로 탐험 게임 |
 | Machine Learning | [Titanic Survival](projects/machine-learning/titanic-survival/README.md) | Random Forest 기반 생존 예측 실습 |
 | Machine Learning | [House Prices](projects/machine-learning/house-prices/README.md) | 주택 가격 회귀 대회 데이터 탐색 및 제출 실습 |
+| Kaggle Competition | [Kaggriculture Strategy League](projects/kaggriculture/README.md) | 독립 전략 에이전트를 격리된 로컬 리그에서 비교하는 실험 도구 |
 
 ## Learning notes
 
@@ -24,6 +25,7 @@ projects/
   java/solo-adventure-maze/
   machine-learning/titanic-survival/
   machine-learning/house-prices/
+  kaggriculture/
 learning-notes/
   tabular-ml/
   aimers/

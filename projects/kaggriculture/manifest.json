@@ -1,0 +1,18 @@
+{
+  "engine_version": "1.32.7",
+  "baseline": "master",
+  "default_agents": ["master", "conditional_memory", "two_coins", "v48", "pure_architecture", "agroboss"],
+  "seed_sets": {
+    "smoke": [922001],
+    "development": [922101, 922102, 922103],
+    "holdout": [922901, 922902, 922903]
+  },
+  "agents": [
+    {"id": "master", "path": "agents/master/main.py", "idea": "Master Engine V3 replay and repair baseline"},
+    {"id": "conditional_memory", "path": "agents/conditional-memory/main.py", "idea": "Opponent-state prototype matching and SELL reordering"},
+    {"id": "two_coins", "path": "agents/two-coins/main.py", "files": ["main.py", "policy.py", "router.py", "settings.json", "actions.json", "LICENSE.txt", "NOTICE.txt"], "idea": "Shop routes and setup-protected sale window"},
+    {"id": "v48", "path": "agents/v48/main.py", "idea": "Public-state route router and clone detection"},
+    {"id": "pure_architecture", "path": "agents/pure-architecture/main.py", "idea": "State-based production and economic rules"},
+    {"id": "agroboss", "path": "agents/agroboss/main.py", "idea": "Greedy live-board job scheduling"}
+  ]
+}

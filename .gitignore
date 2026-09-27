@@ -18,3 +18,7 @@ __pycache__/
 
 # Solo Adventure Maze creates a snapshot directory for every playthrough
 projects/java/solo-adventure-maze/run_*/
+
+# Kaggriculture local league output
+projects/kaggriculture/runs/
+projects/kaggriculture/__pycache__/
