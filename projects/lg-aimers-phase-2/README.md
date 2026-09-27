@@ -13,7 +13,14 @@ KBO 투수가 의도한 곳에 공을 던졌는지(`control_success`)를 확률�
 
 최종 파이프라인은 트랙맨 이력 매칭, 시계열·선수 기반 피처, LightGBM·CatBoost·Logistic Regression·TabM 앙상블, 그리고 분포 이동 보정으로 구성됩니다. 핵심 교훈은 단순 모델 교체보다 검증 구조와 사후 보정 근거가 성능에 더 큰 영향을 준다는 점입니다.
 
-자세한 실험 근거와 실패 기록은 [METHODOLOGY.md](METHODOLOGY.md)에, 환경·재현성 조건은 [ENVIRONMENT.md](ENVIRONMENT.md)에 정리했습니다.
+### Technical decisions
+
+- **Temporal generalization:** 2019–2024 시즌 데이터로 2025 시즌을 예측하는 문제로 보고, 시즌 간 평균·신인 비율 차이를 별도 보정 대상으로 다뤘습니다.
+- **Ensemble design:** 트리·선형 모델과 TabM을 결합하고, TabM의 수치·범주형 임베딩을 중심 모델로 사용했습니다.
+- **Evidence-driven calibration:** Brier Skill Score의 이차 형태를 이용해 제출 결과 한 번으로 보정 축의 기울기와 최적점을 추정하는 절차를 기록했습니다.
+- **Reproducibility boundary:** CUDA 임베딩 역전파의 비결정성을 명시하고, 결정적으로 재현 가능한 산출물과 그렇지 않은 산출물을 구분했습니다.
+
+자세한 실험 근거와 실패 기록은 [METHODOLOGY.md](METHODOLOGY.md)에, 환경·재현성 조건은 [ENVIRONMENT.md](ENVIRONMENT.md)에 정리했습니다. 점수와 순위는 프로젝트 진행 당시의 최종 기록이며, 이 저장소에는 대회 원본 데이터나 모델 가중치를 포함하지 않습니다.
 
 ## Repository contents
 
